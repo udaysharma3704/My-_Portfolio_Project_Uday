@@ -106,11 +106,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage
+                     
                       
                         alt={project.title}
                         link={project.link}
-                      />
+                      
                     </div>
                   </div>
                 </div>

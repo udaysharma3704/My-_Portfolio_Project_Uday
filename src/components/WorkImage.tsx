@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 
 interface Props {
-  // image: string;  <-- You can remove this from props if you won't use it
+  image: string;
   alt?: string;
   video?: string;
   link?: string;
@@ -28,19 +28,25 @@ const WorkImage = (props: Props) => {
           </div>
         )}
         
-        {/* IMAGE REMOVED FROM HERE */}
+        {/* We use 'hovering' here to fade the image out when the video plays */}
+        <img 
+          src={props.image} 
+          alt={props.alt} 
+          style={{ 
+            opacity: hovering && props.video ? 0 : 1, 
+            transition: 'opacity 0.3s ease' 
+          }}
+        />
 
-        {/* If you want the video to be visible ALWAYS (not just hover), 
-           remove the 'hovering &&' condition below 
-        */}
-        {props.video && (
+        {/* We use 'hovering' here to only play the video on hover */}
+        {props.video && hovering && (
           <video 
             src={`/videos/${props.video}`} 
             autoPlay 
             muted 
             playsInline 
             loop 
-            className="work-video-layer"
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
           ></video>
         )}
       </a>
