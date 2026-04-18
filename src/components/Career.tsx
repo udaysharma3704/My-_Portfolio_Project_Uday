@@ -23,8 +23,8 @@ const Career = () => {
               <h3>YEAR 3</h3>
             </div>
             <p>
-              Mastering **AWS Services** (EC2, S3, RDS, DynamoDB). Currently preparing for the 
-              **AWS Certified Cloud Practitioner** exam and implementing auto-scaling 
+              Mastering AWS Services (EC2, S3, RDS, DynamoDB). Currently preparing for the 
+              AWS Certified Cloud Practitioner exam and implementing auto-scaling 
               infrastructure for scalable web applications.
             </p>
           </div>
@@ -39,8 +39,8 @@ const Career = () => {
               <h3>YEAR 2</h3>
             </div>
             <p>
-              Focused on **Java Enterprise** and database management. Built a full-stack 
-              **Movie Booking System** using Java and integrated MySQL for real-time 
+              Focused on Java Enterprise and database management. Built a full-stack 
+              Movie Booking System using Java and integrated MySQL for real-time 
               transaction processing and seat reservation logic.
             </p>
           </div>
@@ -55,9 +55,9 @@ const Career = () => {
               <h3>YEAR 1</h3>
             </div>
             <p>
-              Built a strong foundation in **Data Structures and Algorithms** using **C++**. 
-              Applied **Object-Oriented Programming** principles to develop a persistent 
-              **Car Rental Management System** with advanced File I/O operations.
+              Built a strong foundation in Data Structures and Algorithms** using C++. 
+              Applied Object-Oriented Programming principles to develop a persistent 
+              Car Rental Management System with advanced File I/O operations.
             </p>
           </div>
         </div>
